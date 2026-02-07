@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ResourceryWorkflow.Documentation.Domain.Shared": {
+      "path": "src/ResourceryWorkflow.Documentation.Domain.Shared/ResourceryWorkflow.Documentation.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.Documentation.Domain": {
+      "path": "src/ResourceryWorkflow.Documentation.Domain/ResourceryWorkflow.Documentation.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.Documentation.Application.Contracts": {
+      "path": "src/ResourceryWorkflow.Documentation.Application.Contracts/ResourceryWorkflow.Documentation.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.Documentation.Application": {
+      "path": "src/ResourceryWorkflow.Documentation.Application/ResourceryWorkflow.Documentation.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.Documentation.EntityFrameworkCore": {
+      "path": "src/ResourceryWorkflow.Documentation.EntityFrameworkCore/ResourceryWorkflow.Documentation.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.Documentation.MongoDB": {
+      "path": "src/ResourceryWorkflow.Documentation.MongoDB/ResourceryWorkflow.Documentation.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.Documentation.HttpApi": {
+      "path": "src/ResourceryWorkflow.Documentation.HttpApi/ResourceryWorkflow.Documentation.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.Documentation.HttpApi.Client": {
+      "path": "src/ResourceryWorkflow.Documentation.HttpApi.Client/ResourceryWorkflow.Documentation.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.Documentation.TestBase": {
+      "path": "test/ResourceryWorkflow.Documentation.TestBase/ResourceryWorkflow.Documentation.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryWorkflow.Documentation.EntityFrameworkCore.Tests": {
+      "path": "test/ResourceryWorkflow.Documentation.EntityFrameworkCore.Tests/ResourceryWorkflow.Documentation.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryWorkflow.Documentation.MongoDB.Tests": {
+      "path": "test/ResourceryWorkflow.Documentation.MongoDB.Tests/ResourceryWorkflow.Documentation.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryWorkflow.Documentation.Domain.Tests": {
+      "path": "test/ResourceryWorkflow.Documentation.Domain.Tests/ResourceryWorkflow.Documentation.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryWorkflow.Documentation.Application.Tests": {
+      "path": "test/ResourceryWorkflow.Documentation.Application.Tests/ResourceryWorkflow.Documentation.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryWorkflow.Documentation.HttpApi.Host": {
+      "path": "host/ResourceryWorkflow.Documentation.HttpApi.Host/ResourceryWorkflow.Documentation.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ResourceryWorkflow.Documentation.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ResourceryWorkflow.Documentation.HttpApi.Client.ConsoleTestApp/ResourceryWorkflow.Documentation.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryWorkflow.Documentation.IdentityServer": {
+      "path": "host/ResourceryWorkflow.Documentation.IdentityServer/ResourceryWorkflow.Documentation.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "ResourceryWorkflow.Documentation.Host.Shared": {
+      "path": "host/ResourceryWorkflow.Documentation.Host.Shared/ResourceryWorkflow.Documentation.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

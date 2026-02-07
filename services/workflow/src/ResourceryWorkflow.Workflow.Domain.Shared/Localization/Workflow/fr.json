@@ -1,0 +1,32 @@
+{
+  "culture": "fr",
+  "texts": {
+    "MyAccount": "Mon compte",
+    "SamplePageMessage": "Exemple de page pour le module Workflow",
+    "WorkflowSystem": "Systèmes de Workflow",
+    "WorkflowDescription": "Prise en charge des ERP avec des applications personnalisées et des flux de travail automatisés pour des processus cohérents et efficaces.",
+    "Workflow": "Workflow",
+    "GetStarted": "Commencer",
+    "Integrated": "Intégré",
+    "Directorate": "Direction",
+    "Department": "Département",
+    "OfficeOfTheDirector": "Bureau du Directeur",
+    "Interpretation": "Interprétation",
+    "Translation": "Traduction",
+    "Conference": "Conférence",
+    "Protocol": "Protocole",
+    "BC": "Chef de cabine",
+    "CA": "Assistant de conférence",
+    "CD": "Division de conférence",
+    "CGAC": "Commissaire général Administration et Conférence",
+    "DirCP": "Directeur Conférence et Protocole",
+    "DCP": "Direction de la Conférence et du Protocole",
+    "HOD": "Chef de division",
+    "LA": "Assistant linguistique",
+    "LC": "Coordinateur linguistique",
+    "LD": "Division linguistique",
+    "PD": "Division du protocole",
+    "SIE": "Équipement d’interprétation simultanée",
+    "TL": "Chef d’équipe"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ResourceryWorkflow.IdentityService.Domain.Shared": {
+      "path": "src/ResourceryWorkflow.IdentityService.Domain.Shared/ResourceryWorkflow.IdentityService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.IdentityService.Domain": {
+      "path": "src/ResourceryWorkflow.IdentityService.Domain/ResourceryWorkflow.IdentityService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.IdentityService.Application.Contracts": {
+      "path": "src/ResourceryWorkflow.IdentityService.Application.Contracts/ResourceryWorkflow.IdentityService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.IdentityService.Application": {
+      "path": "src/ResourceryWorkflow.IdentityService.Application/ResourceryWorkflow.IdentityService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.IdentityService.EntityFrameworkCore": {
+      "path": "src/ResourceryWorkflow.IdentityService.EntityFrameworkCore/ResourceryWorkflow.IdentityService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.IdentityService.MongoDB": {
+      "path": "src/ResourceryWorkflow.IdentityService.MongoDB/ResourceryWorkflow.IdentityService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.IdentityService.HttpApi": {
+      "path": "src/ResourceryWorkflow.IdentityService.HttpApi/ResourceryWorkflow.IdentityService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.IdentityService.HttpApi.Client": {
+      "path": "src/ResourceryWorkflow.IdentityService.HttpApi.Client/ResourceryWorkflow.IdentityService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryWorkflow.IdentityService.TestBase": {
+      "path": "test/ResourceryWorkflow.IdentityService.TestBase/ResourceryWorkflow.IdentityService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryWorkflow.IdentityService.EntityFrameworkCore.Tests": {
+      "path": "test/ResourceryWorkflow.IdentityService.EntityFrameworkCore.Tests/ResourceryWorkflow.IdentityService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryWorkflow.IdentityService.MongoDB.Tests": {
+      "path": "test/ResourceryWorkflow.IdentityService.MongoDB.Tests/ResourceryWorkflow.IdentityService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryWorkflow.IdentityService.Domain.Tests": {
+      "path": "test/ResourceryWorkflow.IdentityService.Domain.Tests/ResourceryWorkflow.IdentityService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryWorkflow.IdentityService.Application.Tests": {
+      "path": "test/ResourceryWorkflow.IdentityService.Application.Tests/ResourceryWorkflow.IdentityService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryWorkflow.IdentityService.HttpApi.Host": {
+      "path": "host/ResourceryWorkflow.IdentityService.HttpApi.Host/ResourceryWorkflow.IdentityService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ResourceryWorkflow.IdentityService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ResourceryWorkflow.IdentityService.HttpApi.Client.ConsoleTestApp/ResourceryWorkflow.IdentityService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryWorkflow.IdentityService.IdentityServer": {
+      "path": "host/ResourceryWorkflow.IdentityService.IdentityServer/ResourceryWorkflow.IdentityService.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "ResourceryWorkflow.IdentityService.Host.Shared": {
+      "path": "host/ResourceryWorkflow.IdentityService.Host.Shared/ResourceryWorkflow.IdentityService.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

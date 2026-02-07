@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "ResourceryWorkflow.Transcription": {
+      "path": "ResourceryWorkflow.Transcription.abpmdl.json"
+    }
+  }
+}

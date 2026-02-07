@@ -1,0 +1,35 @@
+{
+  "culture": "en",
+  "texts": {
+    "MyAccount": "My account",
+    "SamplePageMessage": "A sample page for the Workflow module",
+    "WorkflowSystem": "Workflow Systems",
+    "Workflows": "Workflows",
+    "WorkflowDescription": "Supporting ERPs with custom apps and automated workflows for consistent, efficient processes.",
+    "GetStarted": "Get Started",
+    "Integrated": "Integrated",
+    "Directorate": "Directorate",
+    "Department": "Department",
+    "OfficeOfTheDirector": "Office of the Director",    
+    "Interpretation": "Interpretation",
+    "Translation": "Translation",
+    "Conference": "Conference",
+    "Protocol": "Protocol",
+    "BC": "Booth Captain",
+    "CA": "Conference Assistant",
+    "CD": "Conference Division",
+    "CGAC": "Commissioner General Administration and Conference",
+    "DirCP": "Director Conference and Protocol",
+    "DCP": "Directorate of Conference and Protocol",
+    "HOD": "Head of Division",
+    "LA": "Language Assistant",
+    "LC": "Language Coordinator",
+    "LD": "Language Division",
+    "PD": "Protocol Division",
+    "SIE": "Simultaneous Interpretation Equipment",
+    "TL": "Team Leader"
+
+
+
+  }
+}

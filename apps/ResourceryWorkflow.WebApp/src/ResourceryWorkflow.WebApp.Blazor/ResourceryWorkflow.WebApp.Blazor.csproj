@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="10.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\shared\ResourceryWorkflow.Hosting.Shared\ResourceryWorkflow.Hosting.Shared.csproj" />
+        <ProjectReference Include="..\..\..\..\shared\ResourceryWorkflow.ServiceDefaults\ResourceryWorkflow.ServiceDefaults.csproj" />
+        <ProjectReference Include="..\ResourceryWorkflow.WebApp.Blazor.Client\ResourceryWorkflow.WebApp.Blazor.Client.csproj" />
+    </ItemGroup>
+
+</Project>

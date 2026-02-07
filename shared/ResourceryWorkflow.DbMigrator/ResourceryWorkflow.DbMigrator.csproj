@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <DockerfileContext>..\..</DockerfileContext>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="IdentityModel" Version="7.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.0" />
+        <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+        <PackageReference Include="OpenIddict.Abstractions" Version="7.2.0" />
+        <PackageReference Include="Serilog.Extensions.Logging" Version="9.0.0" />
+        <PackageReference Include="Serilog.Sinks.Async" Version="2.1.0" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
+        <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+        <PackageReference Include="Volo.Abp.Autofac" Version="10.0.2" />
+        <PackageReference Include="Volo.Abp.BackgroundJobs.Abstractions" Version="10.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\services\administration\src\ResourceryWorkflow.Administration.Application.Contracts\ResourceryWorkflow.Administration.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\services\administration\src\ResourceryWorkflow.Administration.EntityFrameworkCore\ResourceryWorkflow.Administration.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\services\identity\src\ResourceryWorkflow.IdentityService.Application.Contracts\ResourceryWorkflow.IdentityService.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\services\identity\src\ResourceryWorkflow.IdentityService.EntityFrameworkCore\ResourceryWorkflow.IdentityService.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\services\projects\src\ResourceryWorkflow.Projects.Application.Contracts\ResourceryWorkflow.Projects.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\services\projects\src\ResourceryWorkflow.Projects.EntityFrameworkCore\ResourceryWorkflow.Projects.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\services\saas\src\ResourceryWorkflow.SaaS.Application.Contracts\ResourceryWorkflow.SaaS.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\services\saas\src\ResourceryWorkflow.SaaS.EntityFrameworkCore\ResourceryWorkflow.SaaS.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\ResourceryWorkflow.Microservice.Shared\ResourceryWorkflow.Microservice.Shared.csproj" />
+        <ProjectReference Include="..\ResourceryWorkflow.ServiceDefaults\ResourceryWorkflow.ServiceDefaults.csproj" />
+        <ProjectReference Include="..\ResourceryWorkflow.Shared\ResourceryWorkflow.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

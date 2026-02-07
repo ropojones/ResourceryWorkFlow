@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <RootNamespace>ResourceryWorkflow.Administration</RootNamespace>
+        <PreserveCompilationReferences>true</PreserveCompilationReferences>
+        <UserSecretsId>ResourceryWorkflow.Administration-c2d31439-b723-48e2-b061-5ebd7aeb6010</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <DockerfileContext>..\..\..\..</DockerfileContext>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\shared\ResourceryWorkflow.Microservice.Shared\ResourceryWorkflow.Microservice.Shared.csproj" />
+        <ProjectReference Include="..\..\..\..\shared\ResourceryWorkflow.ServiceDefaults\ResourceryWorkflow.ServiceDefaults.csproj" />
+        <ProjectReference Include="..\..\..\identity\src\ResourceryWorkflow.IdentityService.Application.Contracts\ResourceryWorkflow.IdentityService.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\..\identity\src\ResourceryWorkflow.IdentityService.EntityFrameworkCore\ResourceryWorkflow.IdentityService.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\..\saas\src\ResourceryWorkflow.SaaS.Application.Contracts\ResourceryWorkflow.SaaS.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\src\ResourceryWorkflow.Administration.HttpApi\ResourceryWorkflow.Administration.HttpApi.csproj" />
+        <ProjectReference Include="..\..\src\ResourceryWorkflow.Administration.Application\ResourceryWorkflow.Administration.Application.csproj" />
+        <ProjectReference Include="..\..\src\ResourceryWorkflow.Administration.EntityFrameworkCore\ResourceryWorkflow.Administration.EntityFrameworkCore.csproj" />
+    </ItemGroup><ItemGroup>
+      <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    </ItemGroup>
+
+</Project>

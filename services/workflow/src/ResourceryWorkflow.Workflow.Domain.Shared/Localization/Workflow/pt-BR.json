@@ -1,0 +1,35 @@
+{
+  "culture": "pt-BR",
+  "texts": {
+    "MyAccount": "Minha conta",
+    "SamplePageMessage": "Uma página de amostra para o módulo Workflow",
+    "WorkflowSystem": "Sistemas de Workflow",
+    "WorkflowDescription": "Oferece suporte a ERPs com aplicativos personalizados e fluxos de trabalho automatizados para processos consistentes e eficientes.",
+    "Workflows": "Workflows",
+    "Workflow": "Workflow",
+    "GetStarted": "Começar",
+    "Integrated": "Integrado",
+     "Directorate": "Diretoria",
+    "Department": "Departamento",
+    "OfficeOfTheDirector": "Gabinete do Diretor",    
+    "Interpretation": "Interpretação",
+    "Translation": "Tradução",
+    "Conference": "Conferência",
+    "Protocol": "Protocolo",
+    "BC": "Chefe de Estande",
+    "CA": "Assistente de Conferência",
+    "CD": "Divisão de Conferência",
+    "CGAC": "Comissário-Geral de Administração e Conferência",
+    "DirCP": "Diretor de Conferência e Protocolo",
+    "DCP": "Diretoria de Conferência e Protocolo",
+    "HOD": "Chefe de Divisão",
+    "LA": "Assistente de Idiomas",
+    "LC": "Coordenador de Idiomas",
+    "LD": "Divisão de Idiomas",
+    "PD": "Divisão de Protocolo",
+    "SIE": "Equipamento de Interpretação Simultânea",
+    "TL": "Líder de Equipe"
+
+
+  }
+}
