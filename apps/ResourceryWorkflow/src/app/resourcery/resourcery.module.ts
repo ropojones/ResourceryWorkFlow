@@ -4,25 +4,21 @@ import { LocalizationModule } from '@abp/ng.core';
 
 import { ResourceryRoutingModule } from './resourcery-routing.module';
 import { ResourceryComponent } from './resourcery.component';
-import { ResourcerySidebarComponent } from './layout/sidebar/sidebar.component';
-import { ResourceryPageComponent } from './layout/page/page.component';
+import { ResourceryLayoutModule } from './layout/resourcery-layout.module';
 import { LogoComponent } from './layout/logo/logo.component';
 import { ResourceryDashboardComponent } from './dashboard/dashboard.component';
-import { ResourceryTranscriptionComponent } from './transcription/transcription.component';
 
 
 @NgModule({
   declarations: [
     ResourceryComponent,
-    ResourcerySidebarComponent,
-    ResourceryPageComponent,
-    ResourceryDashboardComponent,
-    ResourceryTranscriptionComponent
+    ResourceryDashboardComponent,    
   ],
   imports: [
     CommonModule,
     LocalizationModule,
     ResourceryRoutingModule,
+    ResourceryLayoutModule,
     LogoComponent
   ]
 })

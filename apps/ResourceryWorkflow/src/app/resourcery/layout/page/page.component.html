@@ -20,8 +20,11 @@
         <div class="qt-page-subtitle">{{ ('Workflow::' + pageSubtitle) | abpLocalization }}</div>
       </div>
     </div>
-    
+    <div class="qt-actions">
+      <ng-content select="[page-actions]"></ng-content>
+    </div>
   </header>
 
+  <ng-content select="[page-content]"></ng-content>
   <router-outlet></router-outlet>
 </section>

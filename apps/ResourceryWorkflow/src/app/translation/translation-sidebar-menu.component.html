@@ -1,0 +1,15 @@
+<nav class="qt-nav">
+  <a class="qt-nav-item" routerLink="/translation" routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }">
+    <i class="fa fa-language" aria-hidden="true"></i>
+    <span>
+      {{ 'Workflow::Translation' | abpLocalization }}
+    </span>
+  </a>
+
+  <div class="qt-nav-section">Team</div>
+  <a class="qt-nav-item" href="javascript:void(0)">
+    <i class="fa fa-cog" aria-hidden="true"></i>
+    <span>{{ 'Workflow::Settings' | abpLocalization }}</span>
+  </a>
+</nav>

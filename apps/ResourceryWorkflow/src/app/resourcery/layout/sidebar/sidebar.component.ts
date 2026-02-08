@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { AuthService } from '@abp/ng.core';
 
 
 @Component({
@@ -9,4 +8,5 @@ import { AuthService } from '@abp/ng.core';
 })
 export class ResourcerySidebarComponent {
   @Input() collapsed = true;
+  @Input() showSearch = true;
 }
