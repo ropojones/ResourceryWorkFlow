@@ -3,7 +3,7 @@
 @font-face {
   font-family: 'Millik';
   src: url('/assets/fonts/Millik-Regular.woff2') format('woff2'),
-       url('/assets/fonts/Millik-Regular.woff') format('woff');
+    url('/assets/fonts/Millik-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -12,7 +12,7 @@
 @font-face {
   font-family: 'Millik';
   src: url('/assets/fonts/Millik-Medium.woff2') format('woff2'),
-       url('/assets/fonts/Millik-Medium.woff') format('woff');
+    url('/assets/fonts/Millik-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -21,7 +21,7 @@
 @font-face {
   font-family: 'Millik';
   src: url('/assets/fonts/Millik-Bold.woff2') format('woff2'),
-       url('/assets/fonts/Millik-Bold.woff') format('woff');
+    url('/assets/fonts/Millik-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -31,18 +31,20 @@
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
-:root  {
+
+:root {
   --lpx-logo: url('/assets/images/logo/logo-light.png');
   --lpx-logo-icon: url('/assets/images/logo/logo-light-thumbnail.png');
 
-  --qt-bg: #f4f6fb;
+  --qt-bg: #EFF2F7;
   --qt-surface: #ffffff;
   --qt-surface-2: #f0f3fa;
-  --qt-text: #0b1220;
+  --qt-text: #02201c;
   --qt-text-muted: #666666;
   --qt-border: rgba(15, 23, 42, 0.08);
   --qt-accent: #2f6bff;
@@ -77,6 +79,7 @@ body,
 app-root {
   height: 100%;
 }
+
 .donut {
   display: inline-block;
   border: 4px solid rgba(0, 0, 0, 0.1);
@@ -96,10 +99,10 @@ app-root {
 }
 
 // Make only the direct child div.container full width (leave navbar container)
-abp-layout-application > div.container {
+abp-layout-application>div.container {
   max-width: 100% !important;
   width: 100% !important;
-  --bs-gutter-x:0rem !important;
+  --bs-gutter-x: 0rem !important;
 }
 
 // Remove the default mb-4 spacing from the ABP navbar
@@ -108,6 +111,13 @@ abp-layout-application > div.container {
   background: transparent !important;
   box-shadow: none !important;
   min-height: 6rem !important;
+}
+
+body:not(.home-page) abp-layout-header,
+body:not(.home-page) .abp-header,
+body:not(.home-page) .abp-navbar,
+body:not(.home-page) #main-navbar {
+  background: #ffffff !important;
 }
 
 abp-layout-header,
@@ -133,9 +143,51 @@ body.home-page #main-navbar {
   box-shadow: none !important;
 }
 
+abp-layout-header .navbar-nav .nav-link,
+.abp-navbar .navbar-nav .nav-link,
+.abp-topbar .navbar-nav .nav-link,
+#main-navbar .navbar-nav .nav-link,
+.navbar .navbar-nav .nav-link {
+  color: #4a4a4a !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  margin-left: 25px !important;
+}
+
+/* Navbar toggler (mobile) */
+abp-layout-header .navbar-toggler,
+.abp-navbar .navbar-toggler,
+.abp-topbar .navbar-toggler,
+#main-navbar .navbar-toggler,
+.navbar .navbar-toggler {
+  color: #4a4a4a !important;
+  border-color: #4a4a4a !important;
+}
+
+abp-layout-header .navbar-toggler-icon,
+.abp-navbar .navbar-toggler-icon,
+.abp-topbar .navbar-toggler-icon,
+#main-navbar .navbar-toggler-icon,
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%234a4a4a' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 body.home-page .abp-layout-content,
-body.home-page abp-layout-application > div.container {
+body.home-page abp-layout-application>div.container {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
 
+@media (min-width: 992px) {
+
+  body:not(.home-page) #main-navbar .container,
+  body:not(.home-page) #main-navbar .container-sm,
+  body:not(.home-page) #main-navbar .container-md,
+  body:not(.home-page) #main-navbar .container-lg,
+  body:not(.home-page) #main-navbar .container-xl,
+  body:not(.home-page) #main-navbar .container-xxl {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 20px !important;
+  }
+}

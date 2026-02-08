@@ -1,4 +1,4 @@
-import { ReplaceableComponentsService } from '@abp/ng.core';
+import { eLayoutType, ReplaceableComponentsService, RoutesService } from '@abp/ng.core';
 import { Component, inject, OnDestroy, OnInit } from '@angular/core';
 import { NavigationEnd, Router } from '@angular/router';
 import { Subscription, filter } from 'rxjs';
@@ -14,11 +14,13 @@ import { LogoComponent } from './resourcery/layout/logo/logo.component';
 export class AppComponent implements OnInit, OnDestroy {
   private readonly body = document.body;
   private navigationSub?: Subscription;
- private replaceableComponents = inject(ReplaceableComponentsService);
-  constructor(private router: Router) {}
+  private replaceableComponents = inject(ReplaceableComponentsService);
+  private routes = inject(RoutesService);
+
+  constructor(private router: Router) {  
+  }
 
   ngOnInit(): void {
-    
     this.replaceableComponents.add({
       component: LogoComponent,
       key: eThemeBasicComponents.Logo,

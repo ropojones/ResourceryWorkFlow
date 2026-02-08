@@ -10,11 +10,80 @@ function configureRoutes(routesService: RoutesService) {
     routesService.add([
       {
         path: '/',
-        name: '::Menu:Home',
-        iconClass: 'fas fa-home',
+        name: '',
+        iconClass: '',
+        order: 0,
+        layout: eLayoutType.application,
+      },
+      {
+        path: '/resourcery/dashboard',
+        name: 'Workflow::Dashboard',
+        iconClass: '',
         order: 1,
         layout: eLayoutType.application,
       },
+      {
+        path: '/resourcery/dashboard',
+        name: 'Workflow::ServiceRequests',
+        iconClass: '',
+        order: 2,
+        layout: eLayoutType.application,
+      },
+      {
+        path: '/resourcery/directorate',
+        name: 'Workflow::Directorate',
+        parentName: 'Workflow::ServiceRequests',
+        iconClass: '',
+        order: 0,
+        layout: eLayoutType.application,
+      },
+      {
+        path: '/resourcery/translation',
+        name: 'Workflow::Translation',
+        parentName: 'Workflow::ServiceRequests',
+        iconClass: '',
+        order: 1,
+        layout: eLayoutType.application,
+      },
+      {
+        path: '/resourcery/interpretation',
+        name: 'Workflow::Interpretation',
+        parentName: 'Workflow::ServiceRequests',
+        iconClass: '',
+        order: 2,
+        layout: eLayoutType.application,
+      },
+      {
+        path: '/resourcery/conference',
+        name: 'Workflow::Conference',
+        parentName: 'Workflow::ServiceRequests',
+        iconClass: '',
+        order: 3,
+        layout: eLayoutType.application,
+      },
+      {
+        path: '/resourcery/protocol',
+        name: 'Workflow::Protocol',
+        parentName: 'Workflow::ServiceRequests',
+        iconClass: '',
+        order: 4,
+        layout: eLayoutType.application,
+      },
+      {
+        path: '/resourcery/dashboard',
+        name: 'Workflow::Transcription',
+        parentName: 'Workflow::ServiceRequests',
+        iconClass: '',
+        order: 5,
+        layout: eLayoutType.application,
+      },
+      {
+        path: '/resourcery/dashboard',
+        name: 'Workflow::Support',
+        order: 4,
+        layout: eLayoutType.application,
+      },
+
     ]);
   };
 }

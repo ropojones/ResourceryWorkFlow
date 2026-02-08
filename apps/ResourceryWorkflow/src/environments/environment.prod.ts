@@ -12,10 +12,10 @@ export const environment = {
   oAuthConfig: {
     issuer: 'https://localhost:7600/',
     redirectUri: baseUrl,
-    clientId: 'ResourceryHR_Admin',
+    clientId: 'ResourceryWorkflow_Admin',
     clientSecret: '1q2w3e*',
     responseType: 'code',
-    scope: 'offline_access ResourceryHRAuthServer ResourceryHRIdentityService ResourceryHRAdministration ResourceryHRSaaS',
+    scope: 'offline_access ResourceryWorkflowAuthServer ResourceryWorkflowIdentityService ResourceryWorkflowAdministration ResourceryWorkflowSaaS',
     requireHttps: true,
   },
   apis: {

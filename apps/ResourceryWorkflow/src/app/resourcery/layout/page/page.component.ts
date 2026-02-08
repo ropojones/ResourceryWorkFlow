@@ -44,7 +44,7 @@ export class ResourceryPageComponent implements OnInit, OnDestroy {
 
     const title = activeRoute.snapshot.data?.['title'] as string | undefined;
     this.pageTitle = title ?? this.fallbackTitle();
-    this.pageSubtitle = `${this.pageTitle} overview`;
+    this.pageSubtitle = `${this.pageTitle}Overview`;
   }
 
   private fallbackTitle(): string {

@@ -31,12 +31,54 @@
 	max-width: 160px;
 	height: auto;
 }
-
-.qt-sidebar.is-collapsed {
-	width: 80px;
-	padding: 24px 12px;
+.qt-sidebar {
+  background: rgb(10, 151, 128);
+  background-image: none;
+  color: #ffffff;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 280px;
+  min-height: 0;
+  max-height: 100vh;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: width 0.25s ease, padding 0.25s ease;
+}
+.qt-sidebar {
+  background: rgb(10, 151, 128);
+  background-image: none;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.45), 0 6px 16px rgba(0, 0, 0, 0.35);
+  color: #ffffff;
+  /* ...rest unchanged... */
+}
+.qt-sidebar .qt-nav-item,
+.qt-sidebar .qt-nav-item i,
+.qt-sidebar .qt-nav-section,
+.qt-sidebar .qt-search,
+.qt-sidebar .qt-search input,
+.qt-sidebar .qt-search input::placeholder {
+  color: #ffffff;
 }
 
+.qt-sidebar.is-collapsed {
+  width: 80px;
+  padding: 24px 12px;
+  height: 100vh;
+  max-height: 100vh;
+  background-color:  rgb(10, 151, 128) !important;
+ background-image: none !important;
+  color: #ffffff !important;
+}
+
+.qt-sidebar.is-collapsed .qt-nav-item,
+.qt-sidebar.is-collapsed .qt-nav-item i,
+.qt-sidebar.is-collapsed .qt-search,
+.qt-sidebar.is-collapsed .qt-search i {
+  color: #ffffff !important;
+}
 .qt-search {
 	background: var(--qt-input-bg);
 	border-radius: 12px;

@@ -6,12 +6,11 @@
     "WorkflowSystem": "Sistemas de Workflow",
     "WorkflowDescription": "Oferece suporte a ERPs com aplicativos personalizados e fluxos de trabalho automatizados para processos consistentes e eficientes.",
     "Workflows": "Workflows",
-    "Workflow": "Workflow",
     "GetStarted": "Começar",
     "Integrated": "Integrado",
-     "Directorate": "Diretoria",
+    "Directorate": "Diretoria",
     "Department": "Departamento",
-    "OfficeOfTheDirector": "Gabinete do Diretor",    
+    "OfficeOfTheDirector": "Gabinete do Diretor",
     "Interpretation": "Interpretação",
     "Translation": "Tradução",
     "Conference": "Conferência",
@@ -28,8 +27,14 @@
     "LD": "Divisão de Idiomas",
     "PD": "Divisão de Protocolo",
     "SIE": "Equipamento de Interpretação Simultânea",
-    "TL": "Líder de Equipe"
-
-
+    "TL": "Líder de Equipe",
+    "Workflow": "Workflow",
+    "Dashboard": "Painel",    
+   "DashboardOverview": "Visão geral em tempo real do Resourcery e dados resumidos",
+    "Transcription": "Transcrição",
+    "TranscriptionOverview": "Visão geral em tempo real dos serviços de transcrição",
+    "ServiceRequests": "Solicitações de Serviço",
+    "Support": "Suporte"
+    
   }
 }

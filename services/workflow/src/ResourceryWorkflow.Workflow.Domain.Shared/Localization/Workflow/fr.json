@@ -27,6 +27,12 @@
     "LD": "Division linguistique",
     "PD": "Division du protocole",
     "SIE": "Équipement d’interprétation simultanée",
-    "TL": "Chef d’équipe"
+    "TL": "Chef d’équipe",
+   "Dashboard": "Tableau de bord",
+  "DashboardOverview": "Aperçu en temps réel de Resourcery et données résumées",
+  "Transcription": "Transcription",
+  "TranscriptionOverview": "Aperçu en temps réel des services de transcription",
+  "ServiceRequests": "Demandes de service",
+  "Support": "Support"
   }
 }

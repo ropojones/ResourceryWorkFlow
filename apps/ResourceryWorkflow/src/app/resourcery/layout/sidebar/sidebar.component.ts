@@ -8,5 +8,5 @@ import { AuthService } from '@abp/ng.core';
   styleUrl: './sidebar.component.scss',
 })
 export class ResourcerySidebarComponent {
-  @Input() collapsed = false;
+  @Input() collapsed = true;
 }

@@ -5,7 +5,7 @@ type ThemeMode = 'light' | 'dark';
 
 @Injectable({ providedIn: 'root' })
 export class ThemeService {
-  private static readonly storageKey = 'resourceryhr-theme';
+  private static readonly storageKey = 'resourceryWorkflow-theme';
   private currentTheme: ThemeMode = 'dark';
 
   constructor(@Inject(DOCUMENT) private document: Document) {}

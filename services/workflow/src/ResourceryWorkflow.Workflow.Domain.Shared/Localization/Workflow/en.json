@@ -27,9 +27,13 @@
     "LD": "Language Division",
     "PD": "Protocol Division",
     "SIE": "Simultaneous Interpretation Equipment",
-    "TL": "Team Leader"
-
-
-
+    "TL": "Team Leader",
+     "Workflow": "Workflow",
+    "Dashboard": "Dashboard",
+    "DashboardOverview": "Resourcery real-time overview and summarised data",
+    "Transcription": "Transcription",
+    "TranscriptionOverview": "Real-time overview of transcription services",
+    "ServiceRequests": "Service Requests",
+    "Support": "Support"
   }
 }
