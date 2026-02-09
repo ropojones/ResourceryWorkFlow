@@ -25,11 +25,15 @@
     "Workflow": "Workflow",
     "Dashboard": "Painel",
     "DashboardOverview": "Visão geral em tempo real do Resourcery e dados resumidos",
-   "ServiceRequests": "Solicitações de Serviço",   
+    "ServiceRequests": "Solicitações de Serviço",
     "ApprovedRequests": "Solicitações Aprovadas",
+    "ApprovedRequestsOverview": "Todas as solicitações aprovadas no centro de serviço",
     "InProcessRequests": "Solicitações em Andamento",
+    "InProcessRequestsOverview": "Todas as solicitações em andamento no centro de serviço",
     "RejectedRequests": "Solicitações Rejeitadas",
-    "SLA": "Acordos de Nível de Serviço",    
+    "RejectedRequestsOverview": "Todas as solicitações rejeitadas no centro de serviço",
+    "SLA": "Acordos de Nível de Serviço",
+    "SLAOverview": "Visão geral de conformidade e violação de SLA",
     "ServiceCenters": "Centros de Serviço",
     "Support": "Suporte",
     "Directorate": "Diretoria",
@@ -56,7 +60,7 @@
     "Interpretation": "Interpretação",
     "Translation": "Tradução",
     "Conference": "Conferência",
-     "ConferenceOverview": "Divisão de Conferência",
+    "ConferenceOverview": "Divisão de Conferência",
     "CalendarofEvents": "Calendar of Events",
     "CalendarofEventsOverview": "Compilação do Calendário Trimestral de Eventos",
     "MeetingLogisticsCommission": "Logística de Reuniões - Comissão CEDEAO",
@@ -75,11 +79,9 @@
     "ReproductionOverview": "Reprodução e embalagem de documentos de reuniões",
     "PostEvent": "Pós-Evento",
     "PostEventOverview": "Atividades Pós-Evento e Acompanhamento",
-
     "Protocol": "Protocolo",
     "ProtocolOverview": "Divisão de Protocolo",
-     "Transcription": "Transcrição",
+    "Transcription": "Transcrição",
     "TranscriptionOverview": "Visão geral em tempo real dos serviços de transcrição"
-    
   }
 }

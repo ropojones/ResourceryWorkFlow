@@ -26,9 +26,13 @@
     "DashboardOverview": "Aperçu en temps réel de Resourcery et données résumées",
     "ServiceRequests": "Demandes de Service",
     "ApprovedRequests": "Demandes Approuvées",
+    "ApprovedRequestsOverview": "Toutes les demandes approuvées dans le centre de service",
     "InProcessRequests": "Demandes en Cours",
+    "InProcessRequestsOverview": " Toutes les demandes en cours de traitement par le centre de service",
     "RejectedRequests": "Demandes Rejetées",
-    "SLA": "Accords de Niveau de Service",    
+    "RejectedRequestsOverview": "Toutes les demandes rejetées dans le centre de service",
+    "SLA": "Accords de Niveau de Service",
+    "SLAOverview": "Aperçu de la conformité et des violations des SLA",
     "ServiceCenters": "Centres de Service",
     "Support": "Support",
     "Directorate": "Direction",
@@ -52,10 +56,14 @@
     "InternalMeetingsOverview": "Préparation des réunions internes",
     "Documentation": "Documentation",
     "DocumentationOverview": "Téléversement, population et gestion des ECODOCS pour des réunions sans papier",
+
     "Interpretation": "Interprétation",
+    "InterpretationOverview": "Aperçu en temps réel des services d’interprétation",
+
     "Translation": "Traduction",
+
     "Conference": "Conférence",
-     "ConferenceOverview": "Division de la conférence",
+    "ConferenceOverview": "Division de la conférence",
     "CalendarofEvents": "Calendrier des événements",
     "CalendarofEventsOverview": "Compilation du calendrier trimestriel des événements",
     "MeetingLogisticsCommission": "Logistique des réunions - Commission de la CEDEAO",
@@ -74,11 +82,9 @@
     "ReproductionOverview": "Reproduction et emballage des documents de réunion",
     "PostEvent": "Après l'événement",
     "PostEventOverview": "Activités d'après-événement et suivi",
-
-    "Protocol": "Protocole",    
+    "Protocol": "Protocole",
     "ProtocolOverview": "Division de Protocole",
     "Transcription": "Transcription",
     "TranscriptionOverview": "Aperçu en temps réel des services de transcription"
-    
   }
 }
