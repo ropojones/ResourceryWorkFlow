@@ -7,6 +7,14 @@ import { DirectorateComponent } from './directorate.component';
 import { DirectorateLayoutComponent } from './directorate-layout.component';
 import { DirectorateSidebarMenuComponent } from './directorate-sidebar-menu.component';
 import { InternalMemorandaComponent } from './internal-memoranda/internal-memoranda.component';
+import { IncomingCorrespondenceComponent } from './incoming-correspondence/incoming-correspondence.component';
+import { NoteVerbalesComponent } from './note-verbales/note-verbales.component';
+import { MeetingSupervisionComponent } from './meeting-supervision/meeting-supervision.component';
+import { MeetingPreparationComponent } from './meeting-preparation/meeting-preparation.component';
+import { ContributionReportsComponent } from './contribution-reports/contribution-reports.component';
+import { ConceptNotesComponent } from './concept-notes/concept-notes.component';
+import { InternalMeetingsComponent } from './internal-meetings/internal-meetings.component';
+import { DocumentationComponent } from './documentation/documentation.component';
 import { ResourceryLayoutModule } from '../resourcery/layout/resourcery-layout.module';
 
 
@@ -15,7 +23,15 @@ import { ResourceryLayoutModule } from '../resourcery/layout/resourcery-layout.m
     DirectorateComponent,
     DirectorateLayoutComponent,
     DirectorateSidebarMenuComponent,
-    InternalMemorandaComponent
+    InternalMemorandaComponent,
+    IncomingCorrespondenceComponent,
+    NoteVerbalesComponent,
+    MeetingSupervisionComponent,
+    MeetingPreparationComponent,
+    ContributionReportsComponent,
+    ConceptNotesComponent,
+    InternalMeetingsComponent,
+    DocumentationComponent
   ],
   imports: [
     CommonModule,

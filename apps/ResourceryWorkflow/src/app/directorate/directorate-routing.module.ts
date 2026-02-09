@@ -3,6 +3,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { DirectorateComponent } from './directorate.component';
 import { DirectorateLayoutComponent } from './directorate-layout.component';
 import { InternalMemorandaComponent } from './internal-memoranda/internal-memoranda.component';
+import { IncomingCorrespondenceComponent } from './incoming-correspondence/incoming-correspondence.component';
+import { NoteVerbalesComponent } from './note-verbales/note-verbales.component';
+import { MeetingSupervisionComponent } from './meeting-supervision/meeting-supervision.component';
+import { MeetingPreparationComponent } from './meeting-preparation/meeting-preparation.component';
+import { ContributionReportsComponent } from './contribution-reports/contribution-reports.component';
+import { ConceptNotesComponent } from './concept-notes/concept-notes.component';
+import { InternalMeetingsComponent } from './internal-meetings/internal-meetings.component';
+import { DocumentationComponent } from './documentation/documentation.component';
 
 const routes: Routes = [
   {
@@ -10,7 +18,15 @@ const routes: Routes = [
     component: DirectorateLayoutComponent,
     children: [
       { path: '', component: DirectorateComponent },
-      { path: 'internal-memoranda', component: InternalMemorandaComponent, data: { title: 'Internal Memoranda' } }
+      { path: 'internal-memoranda', component: InternalMemorandaComponent, data: { title: 'Internal Memoranda' } },
+      { path: 'incoming-correspondence', component: IncomingCorrespondenceComponent, data: { title: 'Incoming Correspondence' } },
+      { path: 'note-verbales', component: NoteVerbalesComponent, data: { title: 'Note Verbales' } },
+      { path: 'meeting-supervision', component: MeetingSupervisionComponent, data: { title: 'Meeting Supervision' } },
+      { path: 'meeting-preparation', component: MeetingPreparationComponent, data: { title: 'Meeting Preparation' } },
+      { path: 'contribution-reports', component: ContributionReportsComponent, data: { title: 'Contribution Reports' } },
+      { path: 'concept-notes', component: ConceptNotesComponent, data: { title: 'Concept Notes' } },
+      { path: 'internal-meetings', component: InternalMeetingsComponent, data: { title: 'Internal Meetings' } },
+      { path: 'documentation', component: DocumentationComponent, data: { title: 'Documentation' } }
     ]
   }
 ];
