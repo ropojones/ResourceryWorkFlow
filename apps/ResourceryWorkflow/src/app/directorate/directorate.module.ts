@@ -6,6 +6,7 @@ import { DirectorateRoutingModule } from './directorate-routing.module';
 import { DirectorateComponent } from './directorate.component';
 import { DirectorateLayoutComponent } from './directorate-layout.component';
 import { DirectorateSidebarMenuComponent } from './directorate-sidebar-menu.component';
+import { InternalMemorandaComponent } from './internal-memoranda/internal-memoranda.component';
 import { ResourceryLayoutModule } from '../resourcery/layout/resourcery-layout.module';
 
 
@@ -13,7 +14,8 @@ import { ResourceryLayoutModule } from '../resourcery/layout/resourcery-layout.m
   declarations: [
     DirectorateComponent,
     DirectorateLayoutComponent,
-    DirectorateSidebarMenuComponent
+    DirectorateSidebarMenuComponent,
+    InternalMemorandaComponent
   ],
   imports: [
     CommonModule,

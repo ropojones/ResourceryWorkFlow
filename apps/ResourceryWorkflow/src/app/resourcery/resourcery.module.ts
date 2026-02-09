@@ -6,13 +6,11 @@ import { ResourceryRoutingModule } from './resourcery-routing.module';
 import { ResourceryComponent } from './resourcery.component';
 import { ResourceryLayoutModule } from './layout/resourcery-layout.module';
 import { LogoComponent } from './layout/logo/logo.component';
-import { ResourceryDashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
   declarations: [
     ResourceryComponent,
-    ResourceryDashboardComponent,    
   ],
   imports: [
     CommonModule,

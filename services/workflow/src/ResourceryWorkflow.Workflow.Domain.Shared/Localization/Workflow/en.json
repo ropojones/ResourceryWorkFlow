@@ -8,7 +8,6 @@
     "WorkflowDescription": "Supporting ERPs with custom apps and automated workflows for consistent, efficient processes.",
     "GetStarted": "Get Started",
     "Integrated": "Integrated",
-    "Directorate": "Directorate",
     "Department": "Department",
     "OfficeOfTheDirector": "Office of the Director",    
     "Interpretation": "Interpretation",
@@ -34,6 +33,29 @@
     "Transcription": "Transcription",
     "TranscriptionOverview": "Real-time overview of transcription services",
     "ServiceRequests": "Service Requests",
-    "Support": "Support"
+    "Support": "Support", 
+    "Directorate":"Directorate",
+    "DirectorateOverview": "Supervision and coordination of directorate of conference and protocol",
+    "InternalMemoranda": "Internal Memoranda",
+    "InternalMemorandaOverview": "Preparation of Internal Memoranda on behalf of Directorate/Management",
+    "IncomingCorrespondence": "Incoming Correspondence and Requests",
+    "IncomingCorrespondenceOverview": "Receipt of Incoming Correspondences and Requests",
+    "NoteVerbales": "Note Verbales",
+    "NoteVerbalesOverview": "Review of Note Verbales and Issuance of Numbers",
+    "MeetingSupervision": "Supervision - Statutory Meetings and Official Events",
+    "MeetingSupervisionOverview": "Supervision of Preparations for Statutory Meetings and other Official Events",
+    "MeetingPreparation": "Preparation - Statutory Meetings and Official Events",
+    "MeetingPreparationOverview": "Preparations for Statutory Meetings/Official Events",
+    "ContributionReports" : "Contribution to Reports",
+    "ContributionReportsOverview": "Preparation and Review of Contributions to Reports",
+    "ConceptNotes": "Concept Notes/Terms of Reference",
+    "ConceptNotesOverview": "Preparation of Concept Notes/Terms of Reference",
+    "InternalMeetings": "Internal Meetings",
+    "InternalMeetingsOverview": "Preparation of Internal Meetings",
+    "Documentation": "Documentation",
+    "DocumentationOverview": "Document Upload, Population and Management of ECODOCS for Paperless Meeting"
+
+
+
   }
 }

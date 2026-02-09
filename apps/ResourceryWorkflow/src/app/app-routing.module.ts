@@ -31,6 +31,7 @@ const routes: Routes = [
       import('@abp/ng.setting-management').then(m => m.SettingManagementModule.forLazy()),
   },
   { path: 'directorate', loadChildren: () => import('./directorate/directorate.module').then(m => m.DirectorateModule) },
+  { path: 'dashboard', loadChildren: () => import('./dashboard/dashboard.module').then(m => m.DashboardModule) },
   { path: 'translation', loadChildren: () => import('./translation/translation.module').then(m => m.TranslationModule) },
   { path: 'transcription', loadChildren: () => import('./transcription/transcription.module').then(m => m.TranscriptionModule) },
   { path: 'interpretation', loadChildren: () => import('./interpretation/interpretation.module').then(m => m.InterpretationModule) },

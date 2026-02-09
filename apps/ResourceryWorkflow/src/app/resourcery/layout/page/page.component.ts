@@ -43,8 +43,13 @@ export class ResourceryPageComponent implements OnInit, OnDestroy {
     }
 
     const title = activeRoute.snapshot.data?.['title'] as string | undefined;
-    this.pageTitle = title ?? this.fallbackTitle();
+    const resolvedTitle = title ?? this.fallbackTitle();
+    this.pageTitle = this.stripSpaces(resolvedTitle);
     this.pageSubtitle = `${this.pageTitle}Overview`;
+  }
+
+  private stripSpaces(value: string): string {
+    return value.replace(/\s+/g, '');
   }
 
   private fallbackTitle(): string {

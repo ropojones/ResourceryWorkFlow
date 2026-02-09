@@ -25,6 +25,8 @@
     </div>
   </header>
 
-  <ng-content select="[page-content]"></ng-content>
-  <router-outlet></router-outlet>
+  <div class="qt-content">
+    <ng-content select="[page-content]"></ng-content>
+    <router-outlet></router-outlet>
+  </div>
 </section>
