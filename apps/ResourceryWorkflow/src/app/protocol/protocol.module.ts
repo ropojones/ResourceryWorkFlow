@@ -13,6 +13,7 @@ import { ProtocolPreparationDiplomaticCocktailReceptionComponent } from './proto
 import { ProtocolReceptionStaffComponent } from './protocol-reception-staff/protocol-reception-staff.component';
 import { ProtocolCustomDutyWaiverComponent } from './protocol-custom-duty-waiver/protocol-custom-duty-waiver.component';
 import { ProtocolElectionObservationComponent } from './protocol-election-observation/protocol-election-observation.component';
+import { ProtocolRequestsComponent } from './protocol-requests/protocol-requests.component';
 import { ApprovedRequestsComponent } from './approved-requests/approved-requests.component';
 import { InProcessRequestsComponent } from './in-process-requests/in-process-requests.component';
 import { RejectedRequestsComponent } from './rejected-requests/rejected-requests.component';
@@ -32,6 +33,7 @@ import { ResourceryLayoutModule } from '../resourcery/layout/resourcery-layout.m
     ProtocolReceptionStaffComponent,
     ProtocolCustomDutyWaiverComponent,
     ProtocolElectionObservationComponent,
+    ProtocolRequestsComponent,
     ApprovedRequestsComponent,
     InProcessRequestsComponent,
     RejectedRequestsComponent,

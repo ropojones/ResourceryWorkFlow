@@ -15,6 +15,7 @@ import { ContributionReportsComponent } from './contribution-reports/contributio
 import { ConceptNotesComponent } from './concept-notes/concept-notes.component';
 import { InternalMeetingsComponent } from './internal-meetings/internal-meetings.component';
 import { DocumentationComponent } from './documentation/documentation.component';
+import { DirectorateRequestsComponent } from './directorate-requests/directorate-requests.component';
 import { ApprovedRequestsComponent } from './approved-requests/approved-requests.component';
 import { InProcessRequestsComponent } from './in-process-requests/in-process-requests.component';
 import { RejectedRequestsComponent } from './rejected-requests/rejected-requests.component';
@@ -36,6 +37,7 @@ import { ResourceryLayoutModule } from '../resourcery/layout/resourcery-layout.m
     ConceptNotesComponent,
     InternalMeetingsComponent,
     DocumentationComponent,
+    DirectorateRequestsComponent,
     ApprovedRequestsComponent,
     InProcessRequestsComponent,
     RejectedRequestsComponent,

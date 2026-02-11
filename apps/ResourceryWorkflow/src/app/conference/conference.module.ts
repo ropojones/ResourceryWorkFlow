@@ -15,6 +15,7 @@ import { MeetingLogisticsCommunicationComponent } from './meeting-logistics-comm
 import { InspectionIdentificationComponent } from './inspection-identification/inspection-identification.component';
 import { ReproductionComponent } from './reproduction/reproduction.component';
 import { PostEventComponent } from './post-event/post-event.component';
+import { ConferenceRequestsComponent } from './conference-requests/conference-requests.component';
 import { ApprovedRequestsComponent } from './approved-requests/approved-requests.component';
 import { InProcessRequestsComponent } from './in-process-requests/in-process-requests.component';
 import { RejectedRequestsComponent } from './rejected-requests/rejected-requests.component';
@@ -36,6 +37,7 @@ import { ResourceryLayoutModule } from '../resourcery/layout/resourcery-layout.m
     InspectionIdentificationComponent,
     ReproductionComponent,
     PostEventComponent,
+    ConferenceRequestsComponent,
     ApprovedRequestsComponent,
     InProcessRequestsComponent,
     RejectedRequestsComponent,

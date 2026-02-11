@@ -11,6 +11,7 @@ import { MeetingLogisticsCommunicationComponent } from './meeting-logistics-comm
 import { InspectionIdentificationComponent } from './inspection-identification/inspection-identification.component';
 import { ReproductionComponent } from './reproduction/reproduction.component';
 import { PostEventComponent } from './post-event/post-event.component';
+import { ConferenceRequestsComponent } from './conference-requests/conference-requests.component';
 import { ApprovedRequestsComponent } from './approved-requests/approved-requests.component';
 import { RejectedRequestsComponent } from './rejected-requests/rejected-requests.component';
 import { InProcessRequestsComponent } from './in-process-requests/in-process-requests.component';
@@ -31,6 +32,7 @@ const routes: Routes = [
       { path: 'inspection-identification', component: InspectionIdentificationComponent, data: { title: 'Inspection Identification' } },
       { path: 'reproduction', component: ReproductionComponent, data: { title: 'Reproduction' } },
       { path: 'post-event', component: PostEventComponent, data: { title: 'Post Event' } },
+      { path: 'conference-requests', component: ConferenceRequestsComponent, data: { title: 'Conference Requests' } },
       { path: 'approved-requests', component: ApprovedRequestsComponent, data: { title: 'Approved Requests' } },
       { path: 'in-process-requests', component: InProcessRequestsComponent, data: { title: 'In Process Requests' } },
       { path: 'rejected-requests', component: RejectedRequestsComponent, data: { title: 'Rejected Requests' } },

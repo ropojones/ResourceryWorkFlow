@@ -1,12 +1,19 @@
 <nav class="qt-nav">
-  <a class="qt-nav-item" routerLink="/protocol" routerLinkActive="active"
-    [routerLinkActiveOptions]="{ exact: true }">
-    <i class="fa fa-book" aria-hidden="true"></i>
+  <a class="qt-nav-item" routerLink="/protocol" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+    <!-- <i class="fa fa-book" aria-hidden="true"></i> -->
     <span>
-      {{ 'Workflow::Protocol' | abpLocalization }}
+      <strong>
+        {{ 'Workflow::ProtocolServices' | abpLocalization }}
+      </strong>
     </span>
   </a>
-
+ <a class="qt-nav-item" routerLink="/protocol/protocol-requests" routerLinkActive="active"
+    title="{{ 'Workflow::ProtocolRequests' | abpLocalization }}">
+    <i class="fa fa-wpforms" aria-hidden="true"></i>
+    <span>
+      {{ 'Workflow::ProtocolRequests' | abpLocalization }}
+    </span>
+  </a>
   <a class="qt-nav-item" routerLink="/protocol/protocol-ground-transportation" routerLinkActive="active"
     title="{{ 'Workflow::ProtocolGroundTransportation' | abpLocalization }}">
     <i class="fa fa-bus" aria-hidden="true"></i>
@@ -28,8 +35,8 @@
       {{ 'Workflow::ProtocolAccreditationHom' | abpLocalization }}
     </span>
   </a>
-  <a class="qt-nav-item" routerLink="/protocol/protocol-preparation-diplomatic-cocktail-reception" routerLinkActive="active"
-    title="{{ 'Workflow::ProtocolDiplomaticCocktailReception' | abpLocalization }}">
+  <a class="qt-nav-item" routerLink="/protocol/protocol-preparation-diplomatic-cocktail-reception"
+    routerLinkActive="active" title="{{ 'Workflow::ProtocolDiplomaticCocktailReception' | abpLocalization }}">
     <i class="fa fa-glass-martini" aria-hidden="true"></i>
     <span>
       {{ 'Workflow::ProtocolDiplomaticCocktailReception' | abpLocalization }}
@@ -56,6 +63,8 @@
       {{ 'Workflow::ProtocolElectionObservation' | abpLocalization }}
     </span>
   </a>
+
+ 
 
   <div class="qt-nav-section">Pipeline</div>
   <a class="qt-nav-item" routerLink="/protocol/approved-requests" routerLinkActive="active"

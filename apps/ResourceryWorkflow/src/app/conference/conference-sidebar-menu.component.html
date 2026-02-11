@@ -4,10 +4,17 @@
     title="{{ 'Workflow::Dashboard' | abpLocalization }}">
     <!-- <i class="fa fa-border-all" aria-hidden="true"></i> -->
     <span class="text-bold">
-     <strong> {{ 'Workflow::Conference' | abpLocalization }} </strong>
+     <strong> {{ 'Workflow::ConferenceServices' | abpLocalization }} </strong>
     </span>
   </a>
 
+    <a class="qt-nav-item" routerLink="/conference/conference-requests" routerLinkActive="active"
+      title="{{ 'Workflow::ConferenceRequests' | abpLocalization }}">
+      <i class="fa fa-wpforms" aria-hidden="true"></i>
+      <span>
+        {{ 'Workflow::ConferenceRequests' | abpLocalization }}
+      </span>
+    </a>
 
   <a class="qt-nav-item" routerLink="/conference/calendar-of-events" routerLinkActive="active"
     title="{{ 'Workflow::CalendarofEvents' | abpLocalization }}">
@@ -86,6 +93,8 @@
       {{ 'Workflow::PostEvent' | abpLocalization }}
     </span>
   </a>
+
+  
 
     <div class="qt-nav-section">Pipeline</div>
   <a class="qt-nav-item" routerLink="/conference/approved-requests" routerLinkActive="active"

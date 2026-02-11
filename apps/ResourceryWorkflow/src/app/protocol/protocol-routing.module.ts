@@ -9,6 +9,7 @@ import { ProtocolPreparationDiplomaticCocktailReceptionComponent } from './proto
 import { ProtocolReceptionStaffComponent } from './protocol-reception-staff/protocol-reception-staff.component';
 import { ProtocolCustomDutyWaiverComponent } from './protocol-custom-duty-waiver/protocol-custom-duty-waiver.component';
 import { ProtocolElectionObservationComponent } from './protocol-election-observation/protocol-election-observation.component';
+import { ProtocolRequestsComponent } from './protocol-requests/protocol-requests.component';
 import { ApprovedRequestsComponent } from './approved-requests/approved-requests.component';
 import { InProcessRequestsComponent } from './in-process-requests/in-process-requests.component';
 import { RejectedRequestsComponent } from './rejected-requests/rejected-requests.component';
@@ -27,6 +28,7 @@ const routes: Routes = [
       { path: 'protocol-reception-staff', component: ProtocolReceptionStaffComponent, data: { title: 'Protocol Reception Staff' } },
       { path: 'protocol-custom-duty-waiver', component: ProtocolCustomDutyWaiverComponent, data: { title: 'Protocol Custom Duty Waiver' } },
       { path: 'protocol-election-observation', component: ProtocolElectionObservationComponent, data: { title: 'Protocol Election Observation' } },
+      { path: 'protocol-requests', component: ProtocolRequestsComponent, data: { title: 'Protocol Requests' } },
       { path: 'approved-requests', component: ApprovedRequestsComponent, data: { title: 'Approved Requests' } },
       { path: 'in-process-requests', component: InProcessRequestsComponent, data: { title: 'In Process Requests' } },
       { path: 'rejected-requests', component: RejectedRequestsComponent, data: { title: 'Rejected Requests' } },
